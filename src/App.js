@@ -19,7 +19,7 @@ class App extends Component {
             <div class="collapse navbar-collapse" id="navbarSupportedContent" >
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <Link to={'/'} className="nav-link">Home</Link>
+                  <Link to={'/portfolio'} className="nav-link">Home</Link>
                 </li>
                 <li class="nav-item">
                   <Link to={'/work'} className="nav-link">Work</Link>
@@ -35,7 +35,7 @@ class App extends Component {
           </nav>
           <hr />
           <Switch>
-            <Route exact path='/' component={Home} />
+            <Route exact path='/portfolio' component={Home} />
             <Route path='/contact' component={Contact} />
             <Route path='/about' component={About} />
             <Route path='/work' component={Work} />
