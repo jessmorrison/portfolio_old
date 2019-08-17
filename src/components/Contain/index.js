@@ -7,7 +7,7 @@ class Contain extends Component
         <div>
             <div>
                 <strong>
-               
+               TESTING NEW FEATURE
                 </strong>
             </div>
         </div>
