@@ -7,7 +7,6 @@ class Body extends Component
   render() {
     return (
         <div>
-            
             <Logo />
             <Contain />
         </div>
