@@ -6,12 +6,14 @@ class Logo extends Component
   render() {
     return (
         <div>
-            <div id="jm-logo" class="jm-TT">
+            {/* <div  class="jm-TT">
                 <strong>
                     JM
                 </strong>
-            </div>
-            <div class="glitch" data-text="JESS MORRISON">JESS MORRISON</div>
+            </div> */}
+            <div class="jm-container-full-screen">
+             <div id="jm-logo"class="glitch" data-text="JESS MORRISON">JESS MORRISON</div>
+            </div>  
         </div>
     );
   }

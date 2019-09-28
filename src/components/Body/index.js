@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Contain from '../Contain';
+// import Contain from '../Contain';
 import Logo from '../Logo';
 
 class Body extends Component 
@@ -8,7 +8,6 @@ class Body extends Component
     return (
         <div>
             <Logo />
-            <Contain />
         </div>
     );
   }
