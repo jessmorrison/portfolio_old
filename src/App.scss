@@ -23,7 +23,7 @@
   top:0;
   overflow:hidden;
   clip:rect(0,900px,0,0); 
-  animation:noise-anim 9s infinite linear alternate-reverse;
+  animation:noise-anim 6s infinite linear alternate-reverse;
 }
 
 @keyframes noise-anim-2{
@@ -43,7 +43,7 @@
   color:#fe575e;
   overflow:hidden;
   clip:rect(0,900px,0,0); 
-  animation:noise-anim-2 8s infinite linear alternate-reverse;
+  animation:noise-anim-2 4s infinite linear alternate-reverse;
 }
 
 

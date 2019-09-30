@@ -12,7 +12,7 @@ class Logo extends Component
                 </strong>
             </div> */}
             <div class="jm-container-full-screen">
-             <div id="jm-logo"class="glitch" data-text="JESS MORRISON">JESS MORRISON</div>
+             <div id="jm-logo"class="glitch jm-TT" data-text="JESS MORRISON">JESS MORRISON</div>
             </div>  
         </div>
     );
