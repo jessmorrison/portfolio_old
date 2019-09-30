@@ -12,16 +12,16 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <nav class="navbar navbar-expand-lg navbar-dark">
+           <nav class="navbar navbar-expand-lg navbar-dark" >
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <Link to={'/portfolio'} className="nav-link">Home</Link>
                 </li>
-                <li class="nav-item">
+               {/*( <li class="nav-item">
                   <Link to={'/work'} className="nav-link">Work</Link>
                 </li>
                 <li class="nav-item">
@@ -29,11 +29,10 @@ class App extends Component {
                 </li>
                 <li class="nav-item">
                   <Link to={'/contact'} className="nav-link">Contact</Link>
-                </li>
+                </li>)*/}
               </ul>
             </div>
-          </nav>
-          <hr />
+          </nav> 
           <Switch>
             <Route exact path='/portfolio' component={Home} />
             <Route path='/contact' component={Contact} />
