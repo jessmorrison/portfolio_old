@@ -12,6 +12,7 @@
   color:#F9F9F9;
   font-family: 'Open Sans', sans-serif;
   font-size: 13.37px;
+  line-height: 1.978;
   text-align: center;
 }
 #footer-info {
@@ -28,8 +29,10 @@
   padding: 33px;
 }
 .glitch{
-  color:#fe575e;
+  /*color:#fe575e;*/
+  color: #090909;
   font-size:90px;
+  line-height: .9890;
   margin:0 auto;
 }
 @keyframes noise-anim{
@@ -43,12 +46,12 @@
 .glitch:after{
   content:attr(data-text);
   position:absolute;
-  left:0px;
+  left:-3px;
   text-shadow:-1px 0 #fe575e;
   top:0;
   overflow:hidden;
   clip:rect(0,900px,0,0); 
-  animation:noise-anim 6s infinite linear alternate-reverse;
+  animation:noise-anim 18s infinite linear alternate-reverse;
 }
 
 @keyframes noise-anim-2{
@@ -62,13 +65,13 @@
 .glitch:before{
   content:attr(data-text);
   position:absolute;
-  left:-2px;
+  left:-9px;
   text-shadow:1px 0 #fe575e; 
   top:0;
   color:#fe575e;
   overflow:hidden;
   clip:rect(0,900px,0,0); 
-  animation:noise-anim-2 4s infinite linear alternate-reverse;
+  animation:noise-anim-2 6s infinite linear alternate-reverse;
 }
 
 
