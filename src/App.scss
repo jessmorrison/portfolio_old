@@ -31,8 +31,8 @@
 .glitch{
   /*color:#fe575e;*/
   color: #090909;
-  font-size:90px;
-  line-height: .9890;
+  font-size:calc(2.7vw + 2.7vh + 2vmin);
+  line-height: .890;
   margin:0 auto;
 }
 @keyframes noise-anim{
@@ -181,7 +181,6 @@ body, html {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
 }
 #jm-logo img {
 	width:100%;
